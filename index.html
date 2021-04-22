@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="description" />
+    <meta name="keywords" content="keywords" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="infinite-slider.css" />
+    <title>T3 VAKFI</title>
+    <!-- styles-->
+    <link rel="stylesheet" href="css/styles.min.css" />
+    <link rel="stylesheet" href="css/styles.min.css" />
+    <!-- web-font loader-->
+    <script>
+        WebFontConfig = {
+
+            google: {
+
+                families: ['Quicksand:300,400,500,700', 'Permanent+Marker:400'],
+
+            }
+
+        }
+
+        function font() {
+
+            var wf = document.createElement('script')
+
+            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js'
+            wf.type = 'text/javascript'
+            wf.async = 'true'
+
+            var s = document.getElementsByTagName('script')[0]
+
+            s.parentNode.insertBefore(wf, s)
+
+        }
+
+        font()
+    </script>
+</head>
+
+<body >
+    <div class="page-wrapper">
+        <!-- aside dropdown start-->
+        <div class="aside-dropdown">
+            <div class="aside-dropdown__inner"><span class="aside-dropdown__close">
+                    <svg class="icon">
+                        <use xlink:href="#close"></use>
+                    </svg></span>
+                <div class="aside-dropdown__item d-lg-none d-block">
+                    <ul class="aside-menu">
+                        <li class="aside-menu__item aside-menu__item--has-child aside-menu__item--active"><a class="aside-menu__link" href="javascript:void(0);"><span>HAKKIMIZDA</span></a>
+                            <!-- sub menu start-->
+                            <ul class="aside-menu__sub-list">
+                                <li class="item--active"><a href="biz-kimiz.php"><span>BİZ KİMİZ?</span></a></li>
+                                <li><a href="vakif-senedi.php"> <span>VAKIF SENEDİMİZ</span></a></li>
+                             
+                                <li><a href="ekibimiz-2.php"><span>EKİBİMİZ </span></a></li>
+                                <li><a href="sss.php"><span>SSS</span></a></li>
+                                <li><a href="kurumsal-kimlik.php"><span>KURUMSAL KİMLİK</span></a></li>
+                                <li><a href="http://1001takim.org/yayinlarimiz.php"><span>YAYINLARIMIZ</span></a></li>
+                            </ul>
+                            <!-- sub menu end-->
+                        </li>
+                        <li class="aside-menu__item aside-menu__item--has-child"><a class="aside-menu__link" href="javascript:void(0);"><span>PROJELERİMİZ</span></a>
+                            <!-- sub menu start-->
+                            <ul class="aside-menu__sub-list">
+                                <li><a href="teknofest.php"><span>TEKNOFEST</span></a></li>
+                                <li><a href="proje.php"><span>DENEYAP</span></a></li>
+                                <li><a href="t3gm.php"><span>T3GM</span></a></li>
+                                <li><a href="bilimturkiye.php"><span>BİLİM TÜRKİYE</span></a></li>
+                                <li><a href="bilimuskudar.php"><span>BİLİM ÜSKÜDAR</span></a></li>
+                                <li><a href="millitakimlar.php"><span>TEKNOLOJİNİN MİLLİ TAKIMLARI DESTEK PROGRAMI</span></a></li>
+                                <li><a href="milliburs.php"><span>MİLLİ TEKNOLOJİ BURS PROGRAMI</span></a></li>
+                            </ul>
+                            <!-- sub menu end-->
+                        </li>
+
+                        <li class="aside-menu__item"><a class="aside-menu__link" href="cagrilarimiz.php"><span>ÇAĞRILARIMIZ</span></a></li>
+                        <li class="aside-menu__item"><a class="aside-menu__link" href="haberler.php"><span>HABERLER</span></a></li>
+                        <li class="aside-menu__item"><a class="aside-menu__link" href="iletisim.php"><span>İLETİŞİM</span></a></li>
+                        <li class="aside-menu__item"><a class="aside-menu__link" href="https://kys.turkiyeteknolojitakimi.org/tr/accounts/login/" target="_blank"><span>GÖNÜLLÜ OL</span></a></li>
+                        
+                    </ul>
+                </div>
+                <div class="aside-dropdown__item">
+
+                    <!-- aside menu start-->
+                    <li class="aside-menu__item aside-menu__item--has-child aside-menu__item--active"><a class="aside-menu__link" href="javascript:void(0);"><span>HAKKIMIZDA</span></a>
+                        <!-- sub menu start-->
+                        <ul class="aside-menu__sub-list">
+                            <li class="item--active"><a href="biz-kimiz.php"><span>BİZ KİMİZ?</span></a></li>
+                            <li><a href="vakif-senedi.php"> <span>VAKIF SENEDİMİZ</span></a></li>
+                    
+                            <li><a href="ekibimiz-2.php"><span>EKİBİMİZ</span></a></li>
+                            <li><a href="sss.php"><span>SSS</span></a></li>
+                            <li><a href="kurumsal-kimlik.php"><span>KURUMSAL KİMLİK</span></a></li>
+                            <li><a href="http://1001takim.org/yayinlarimiz.php"><span>YAYINLARIMIZ</span></a></li>
+                        </ul>
+                        <!-- sub menu end-->
+                    </li>
+                    <li class="aside-menu__item aside-menu__item--has-child"><a class="aside-menu__link" href="javascript:void(0);"><span>PROJELERİMİZ</span></a>
+                        <!-- sub menu start-->
+                     
+                            <ul class="aside-menu__sub-list">
+                                <li><a href="teknofest.php"><span>TEKNOFEST</span></a></li>
+                                <li><a href="proje.php"><span>DENEYAP</span></a></li>
+                                <li><a href="t3gm.php"><span>T3GM</span></a></li>
+                                <li><a href="bilimturkiye.php"><span>BİLİM TÜRKİYE</span></a></li>
+                                <li><a href="bilimuskudar.php"><span>BİLİM ÜSKÜDAR</span></a></li>
+                                <li><a href="millitakimlar.php"><span>TEKNOLOJİNİN MİLLİ TAKIMLARI DESTEK PROGRAMI</span></a></li>
+                                <li><a href="milliburs.php"><span>MİLLİ TEKNOLOJİ BURS PROGRAMI</span></a></li>
+                            </ul>
+
+                      
+                        <!-- sub menu end-->
+                    </li>
+
+                    <li class="aside-menu__item"><a class="aside-menu__link" href="cagrilarimiz.php"><span>ÇAĞRILARIMIZ</span></a></li>
+                    <li class="aside-menu__item"><a class="aside-menu__link" href="haberler.php"><span>HABERLER</span></a></li>
+                    <li class="aside-menu__item"><a class="aside-menu__link" href="iletisim.php"><span>İLETİŞİM</span></a></li>
+                    <li class="aside-menu__item"><a class="aside-menu__link" href="https://kys.turkiyeteknolojitakimi.org/tr/accounts/login/" target="_blank"><span>GÖNÜLLÜ OL</span></a></li>
+                    
+                    <!-- aside menu end-->
+                    <div class="aside-inner"><span class="aside-inner__title">Email</span><a class="aside-inner__link" href="mailto:iletisim@t3vakfi.org">iletisim@t3vakfi.org</a></div>
+                    <div class="aside-inner"><span class="aside-inner__title">Telefon</span><a class="aside-inner__link" href="tel:+902125019434">+90 212 501 94 34</a></div>
+                    <ul class="aside-socials">
+                        <li class="aside-socials__item"><a class="aside-socials__link" href="https://www.instagram.com/t3vakfi/?hl=tr" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li class="aside-socials__item"><a class="aside-socials__link" href="https://www.linkedin.com/company/turkiye-teknoloji-takimi-vakfi/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li class="aside-socials__item"><a class="aside-socials__link aside-socials__link--active" href="https://twitter.com/t3vakfi" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li class="aside-socials__item"><a class="aside-socials__link" href="https://www.facebook.com/T3vakfi" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="aside-dropdown__item"><a class="button button--squared" href="http://kys.t3vakfi.org/frontend/stakeholder" target="_blank"><span>GÖNÜL OL</span></a></div>
+            </div>
+        </div>
+        <!-- aside dropdown end-->
+        <!-- header start-->
+        <header class="header header--front" style="height: 50px; ">
+            <div class="container-fluid">
+                <div class="row no-gutters justify-content-between">
+                    <div class="col-auto d-flex align-items-center">
+                        <div class="dropdown-trigger d-none d-sm-block">
+                            <div class="dropdown-trigger__item"></div>
+                        </div>
+                        <div class="header-logo"><a class="header-logo__link" href="index.php"><img class="header-logo__img logo--light" src="img/genel/logo.png" style="
+    width: 79px;
+    height: 79px;
+"alt="logo" /><img class="header-logo__img logo--dark" src="img/genel/logo_koyu.png" alt="logo" style="
+    width: 70px;
+    height: 79px;
+"/></a></div>
+                    </div>
+                    <div class="col-auto">
+                        <!-- main menu start-->
+                        <nav>
+                            <ul class="main-menu">
+                                <li class="main-menu__item main-menu__item--has-child main-menu__item--active"><a class="main-menu__link" href="javascript:void(0);"><span>HAKKIMIZDA</span></a>
+                                    <!-- sub menu start-->
+                                    <ul class="main-menu__sub-list">
+                                        <li class="item--active"><a href="biz-kimiz.php"><span>BİZ KİMİZ?</span></a></li>
+                                        <li><a href="vakif-senedi.php"> <span>VAKIF SENEDİMİZ</span></a></li>
+                        
+                                        <li><a href="ekibimiz-2.php"><span>EKİBİMİZ</span></a></li>
+                                        <li><a href="sss.php"><span>SSS</span></a></li>
+                                        <li><a href="kurumsal-kimlik.php"><span>KURUMSAL KİMLİK</span></a></li>
+                                        <li><a href="http://1001takim.org/yayinlarimiz.php"><span>YAYINLARIMIZ</span></a></li>
+                                    </ul>
+                                    <!-- sub menu end-->
+                                </li>
+                                <li class="main-menu__item main-menu__item--has-child"><a class="main-menu__link" href="javascript:void(0);"><span>PROJELERİMİZ</span></a>
+                                    <!-- sub menu start-->
+                                    <ul class="main-menu__sub-list">
+                                        <li><a href="teknofest.php"><span>TEKNOFEST</span></a></li>
+                                        <li><a href="proje.php"><span>DENEYAP</span></a></li>
+                                        <li><a href="t3gm.php"><span>T3GM</span></a></li>
+                                        <li><a href="bilimturkiye.php"><span>BİLİM TÜRKİYE</span></a></li>
+                                        <li><a href="bilimuskudar.php"><span>BİLİM ÜSKÜDAR</span></a></li>
+                                        <li><a href="millitakimlar.php"><span>TEKNOLOJİNİN MİLLİ TAKIMLARI DESTEK PROGRAMI</span></a></li>
+                                        <li><a href="milliburs.php"><span>MİLLİ TEKNOLOJİ BURS PROGRAMI</span></a></li>
+                                    </ul>
+                                    <!-- sub menu end-->
+                                </li>
+
+
+                                <li class="main-menu__item"><a class="main-menu__link" href="cagrilarimiz.php"><span>ÇAĞRILARIMIZ</span></a></li>
+                                <li class="main-menu__item"><a class="main-menu__link" href="haberler.php?s=1"><span>HABERLER</span></a></li>
+                                <li class="main-menu__item"><a class="main-menu__link" href="iletisim.php"><span>İLETİŞİM</span></a></li>
+                                <li class="main-menu__item"><a class="main-menu__link" href="https://kys.turkiyeteknolojitakimi.org/tr/accounts/login/" target="_blank"><span>GÖNÜLLÜ OL</span></a></li>
+                            </ul>
+                            
+                        </nav>
+                        <!-- main menu end-->
+                    </div>
+                    <div class="col-auto d-flex align-items-center" style="height: 67px;" >
+                        <!-- lang select start-->
+                  <!--      <ul class="lang-select">
+                            <li class="lang-select__item lang-select__item--active"><span>TR</span>
+                                <ul class="lang-select__sub-list">
+                                    <li><a href="#">English</a></li>
+                                </ul>
+                            </li>
+                        </ul> -->
+                        <!-- lang select end-->
+                        <div class="dropdown-trigger d-block d-sm-none"  >
+                            <div class="dropdown-trigger__item"></div>
+                        </div><a class="button button--squared" href="https://kys.turkiyeteknolojitakimi.org/tr/accounts/login/" target="_blank" style="padding-top: 20px; width:170px;"><span>KYS GİRİŞ</span></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header end--><main class="main">
+    <section class="promo promo--front_3">
+        <div class="promo-slider">            <div class="promo-slider__item promo-slider__item--style-3">	
+                <picture>
+                    <source srcset="img/MainSlider.gif" media="(min-width: 835px)"/>
+                    <source srcset="img/MainSlider2.gif" media="(min-width: 376px)"/>
+                    <img class="img--bg" src="img/MainSlider3.gif" alt="img"/>
+                </picture>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-7 offset-xl-5 text-left">
+                            <div class="align-container">
+                                <div class="align-container__item">
+                                    
+                                    <div class="promo-slider__wrapper-1">
+                                        <h2 class="promo-slider__title">
+                                            
+                                            <span style="color: #efc940;">BİLİM TÜRKİYE EĞİTMEN GELİŞTİRME PROGRAMI KAYITLARI BAŞLADI!</span> </h2>
+                                    </div>
+                                    <div class="promo-slider__wrapper-2">
+                                        <p class="promo-slider__subtitle">ODTÜ Öğretim Üyesi Prof. Dr. Soner Yıldırım, 27 Şubat Salı 19:00'da "Öğrenmenin Zihnimizdeki Serüveni" konulu çevrim içi eğitimi ile programımızın konuğu olacak.</p>
+                                    </div>
+                                    <div class="promo-slider__wrapper-3"><a class="button promo-slider__button button--primary" href="haber-detay.php?id=86">Devamını Oku</a></div>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>               <div class="promo-slider__item promo-slider__item--style-3">	
+                <picture>
+                    <source srcset="img/MainSlider.gif" media="(min-width: 835px)"/>
+                    <source srcset="img/MainSlider2.gif" media="(min-width: 376px)"/>
+                    <img class="img--bg" src="img/MainSlider3.gif" alt="img"/>
+                </picture>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-7 offset-xl-5 text-left">
+                            <div class="align-container">
+                                <div class="align-container__item">
+                                    
+                                    <div class="promo-slider__wrapper-1">
+                                        <h2 class="promo-slider__title">
+                                            
+                                            <span style="color: #efc940;">DENEYAP TEKNOLOJİ ATÖLYELERİ EĞİTMENLERİNİ ARIYOR!</span> </h2>
+                                    </div>
+                                    <div class="promo-slider__wrapper-2">
+                                        <p class="promo-slider__subtitle">Milli Teknoloji Hamlesi yolunda yarının teknolojisini üretecek gençleri yetiştirme hedefimizde bizimle birlikte olmak isteyen tüm eğitmenlerimizin başvurularını bekliyoruz.  </p>
+                                    </div>
+                                    <div class="promo-slider__wrapper-3"><a class="button promo-slider__button button--primary" href="haber-detay.php?id=85">Devamını Oku</a></div>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>               <div class="promo-slider__item promo-slider__item--style-3">	
+                <picture>
+                    <source srcset="img/MainSlider.gif" media="(min-width: 835px)"/>
+                    <source srcset="img/MainSlider2.gif" media="(min-width: 376px)"/>
+                    <img class="img--bg" src="img/MainSlider3.gif" alt="img"/>
+                </picture>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-7 offset-xl-5 text-left">
+                            <div class="align-container">
+                                <div class="align-container__item">
+                                    
+                                    <div class="promo-slider__wrapper-1">
+                                        <h2 class="promo-slider__title">
+                                            
+                                            <span style="color: #efc940;">VAKIF BÜLTENİMİZİN İKİNCİ SAYISI YAYINLANDI</span> </h2>
+                                    </div>
+                                    <div class="promo-slider__wrapper-2">
+                                        <p class="promo-slider__subtitle">T3 Vakfı olarak Temmuz-Aralık 2020 tarihleri arasında gerçekleştirdiğimiz faaliyetleri Vakıf Bültenimizde derledik. </p>
+                                    </div>
+                                    <div class="promo-slider__wrapper-3"><a class="button promo-slider__button button--primary" href="haber-detay.php?id=83">Devamını Oku</a></div>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>               <div class="promo-slider__item promo-slider__item--style-3">	
+                <picture>
+                    <source srcset="img/MainSlider.gif" media="(min-width: 835px)"/>
+                    <source srcset="img/MainSlider2.gif" media="(min-width: 376px)"/>
+                    <img class="img--bg" src="img/MainSlider3.gif" alt="img"/>
+                </picture>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-7 offset-xl-5 text-left">
+                            <div class="align-container">
+                                <div class="align-container__item">
+                                    
+                                    <div class="promo-slider__wrapper-1">
+                                        <h2 class="promo-slider__title">
+                                            
+                                            <span style="color: #efc940;">GİRİŞİMCİ YETİŞTİRME PROGRAMI BAŞVURULARI BAŞLADI!</span> </h2>
+                                    </div>
+                                    <div class="promo-slider__wrapper-2">
+                                        <p class="promo-slider__subtitle">T3 Girişim Merkezi, girişimciliğe ilgisi olan lise, ön lisans ve lisans öğrencileri için Girişimci Yetiştirme Programı kapsamında temel girişimcilik eğitimleri, kitap tahlilleri, vaka analizleri ve girişim buluşmalarının yer aldığı 10 aylık bir eğitim programı sunuyor. </p>
+                                    </div>
+                                    <div class="promo-slider__wrapper-3"><a class="button promo-slider__button button--primary" href="haber-detay.php?id=82">Devamını Oku</a></div>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>               <div class="promo-slider__item promo-slider__item--style-3">	
+                <picture>
+                    <source srcset="img/MainSlider.gif" media="(min-width: 835px)"/>
+                    <source srcset="img/MainSlider2.gif" media="(min-width: 376px)"/>
+                    <img class="img--bg" src="img/MainSlider3.gif" alt="img"/>
+                </picture>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-7 offset-xl-5 text-left">
+                            <div class="align-container">
+                                <div class="align-container__item">
+                                    
+                                    <div class="promo-slider__wrapper-1">
+                                        <h2 class="promo-slider__title">
+                                            
+                                            <span style="color: #efc940;">ŞUBAT AYI ÇEVRİM İÇİ ATÖLYE PROGRAMI YAYINLANDI!</span> </h2>
+                                    </div>
+                                    <div class="promo-slider__wrapper-2">
+                                        <p class="promo-slider__subtitle">6-14 yaş grubundaki çocuklar için Matematik, Teknoloji, Doğa Bilimleri, Tasarım ve Astronomi, Havacılık&Uzay olmak üzere 5 farklı temadaki çevrim içi atölye eğitimlerimiz devam ediyor.</p>
+                                    </div>
+                                    <div class="promo-slider__wrapper-3"><a class="button promo-slider__button button--primary" href="haber-detay.php?id=80">Devamını Oku</a></div>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>               
+</div>
+        <!-- promo socials start-->
+        <ul class="promo-socials">
+            <li class="promo-socials__item"><a class="promo-socials__link" href="https://www.instagram.com/t3vakfi/?hl=tr"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li class="promo-socials__item"><a class="promo-socials__link" href="https://twitter.com/t3vakfi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li class="promo-socials__item"><a class="promo-socials__link" href="https://www.youtube.com/channel/UCvU7axhvcQsvMVfxN5ovQlQ"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+            <li class="promo-socials__item"><a class="promo-socials__link" href="https://www.facebook.com/T3vakfi"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li class="promo-socials__item"><a class="promo-socials__link" href="https://turkiyeteknolojitakimi.org/telegram-kanallarimiz.html"><i class="fa fa-telegram" aria-hidden="true"></i></a></li> 
+              <li class="promo-socials__item"><a class="promo-socials__link" href="https://www.linkedin.com/company/turkiye-teknoloji-takimi-vakfi/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        </ul>
+        <!-- promo socials end-->
+        
+        <!-- slider nav start-->
+        <div class="slider__nav slider__nav--promo">
+            <div class="promo-slider__count"></div>
+            <div class="slider__arrows">
+                <div class="slider__prev"><i class="fa fa-chevron-left" aria-hidden="true"></i>
+                </div>
+                <div class="slider__next"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <!-- slider nav end-->
+    </section>
+	<!-- about us start-->
+<!-- 	<section class="section about-us" id="about" ">
+		<div class="container">
+			<div class="row align-items-center"><img class="img--bg" src="img/genel/bizkimizzemin.jpg" alt="img" />
+				<div class="col-lg-6 col-xs-6">
+					<div class="heading heading--primary"><span class="heading__pre-title">Hakkımızda</span>
+						<h2 class="heading__title"><span>BİZ</span> <span>KİMİZ?</span></h2>
+					</div>
+					<p><strong>Teknoloji Üreten Bir Türkiye Hedefliyoruz</strong></p>
+					Türkiye Teknoloji Takımları Vakfı olarak yetenekli gençlerin ve her yaştan insanın teknoloji üretme sürecine katılmasını sağlamak, stratejik önemi gereğince üretilmesi öncelikli olan teknolojilerin milli ve özgün olarak üretilmesine yönelik girişim, proje ve faaliyetleri desteklemek, teknoloji alanında girişimcilik kültürünün geliştirmek ve bütün bu alanlarda yapılacak bilimsel çalışmalara katkıda bulunmak için çalışıyoruz.
+
+				</div>
+
+			</div>
+		</div>
+	</section> -->
+	<!-- about us end-->
+	<style>
+		.causes::before {
+			background-color: white;
+		}
+	</style>
+
+
+
+
+	<!-- section start-->
+	<section class="section" style="padding-bottom: 25px;">
+		<div class="container">
+			<div class="row align-items-end margin-bottom">
+				<div class="col-sm-6">
+					<div class="heading heading--primary"><span class="heading__pre-title">Neler Yapıyoruz?</span>
+						<h2 class="heading__title no-margin-bottom"><span>T3 Vakfı</span> <span>Projeleri</span></h2>
+					</div>
+				</div>
+				<div class="col-sm-6 text-sm-right">
+					<!-- slider nav start-->
+					<div class="slider__nav projects-slider__nav">
+						<div class="slider__arrows">
+							<div class="slider__prev"><i class="fa fa-chevron-left" aria-hidden="true"></i>
+							</div>
+							<div class="slider__next"><i class="fa fa-chevron-right" id="hasan" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<!-- slider nav end-->
+				</div>
+			</div>
+		</div>
+		<style>
+			#proje {
+				font-family: 'gotham light', serif;
+				color: '#57fdff';
+			}
+		</style>
+		<div class="projects-slider">
+			<div class="projects-slider__item">
+				<div class="projects-masonry__item projects-masonry__item--primary projects-masonry__item--height-2" style="margin-right: 10px;">
+					<div class="projects-masonry__img"><img class="img--bg" src="img/projeler/teknofest_proje.jpg" alt="img" />
+						<div class="projects-masonry__inner"><span class="projects-masonry__badge" style="background: #f05022;">TEKNOFEST</span>
+							<br>
+							<b>T3 Vakfı ve T.C. Sanayi ve Teknoloji Bakanlığı yürütücülüğünde Türkiye’nin milli teknoloji üreten bir topluma dönüşmesi konusunda farkındalık oluşturmak amacıyla düzenlenen Havacılık, Uzay ve Teknoloji Festivali’dir.</b>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="projects-slider__item">
+				<div class="projects-masonry__item projects-masonry__item--primary projects-masonry__item--height-2" style="margin-right: 10px;">
+					<div class="projects-masonry__img"><img class="img--bg" src="img/projeler/deneyap_proje.jpg" alt="img" />
+						<div class="projects-masonry__inner"><span class="projects-masonry__badge" style="background: #49C2DF;">DENEYAP</span>
+							<br>
+							<b> Deneyap Teknoloji Atölyeleri, “Geleceğin Teknoloji Yıldızları”nı yetiştirmek amacıyla hayata geçirilmiş ortaokul ve lise öğrencilerine yönelik 36 aylık bir eğitim programıdır.</b>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="projects-slider__item">
+				<div class="projects-masonry__item projects-masonry__item--primary projects-masonry__item--height-2" style="margin-right: 10px;">
+					<div class="projects-masonry__img"><img class="img--bg" src="img/projeler/girisim_proje.jpg" alt="img" />
+						<div class="projects-masonry__inner"><span class="projects-masonry__badge" style="background: #882baa;">T3 GİRİŞİM MERKEZİ</span>
+							<br>
+							<b>T3 Girişim Merkezi katma değer oluşturacak başarılı teknoloji girişimlerinin hayata geçmesine desteklemek amacıyla kurulmuştur.</b>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="projects-slider__item">
+				<div class="projects-masonry__item projects-masonry__item--primary projects-masonry__item--height-2" style="margin-right: 10px;">
+					<div class="projects-masonry__img"><img class="img--bg" src="img/projeler/bilimuskudar_proje.jpg" alt="img" />
+						<div class="projects-masonry__inner"><span class="projects-masonry__badge" style="background: #a5cb0d;">BİLİM TÜRKİYE</span>
+							<br>
+							<b> Bilim ve teknolojiye olan ilgiyi arttırıp yaratıcı ve üretken bir nesil yetiştirmek amacıyla kurulan İstanbul, Gaziantep ve Erzurum’da kurulan Bilim Türkiye Merkezleri’nde; 6-14 yaş arası öğrencilere uygulamalı atölye eğitimleri verilmektedir. </b>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="projects-slider__item">
+				<div class="projects-masonry__item projects-masonry__item--primary projects-masonry__item--height-2" style="margin-right: 10px;">
+					<div class="projects-masonry__img"><img class="img--bg" src="img/projeler/milliburs_proje.jpg" alt="img" />
+						<div class="projects-masonry__inner"><span class="projects-masonry__badge" style="background: #00d9e4;">MİLLİ TEKNOLOJİ BURS PROGRAMI</span>
+							<br>
+							<b> Lisans ve lisansüstü düzeyinde eğitim gören Milli Teknoloji Hamlesi vizyonuna sahip öğrencileri desteklemek amacıyla gönüllü ve eğitmen-mentör olmak üzere iki kategorisi olan burs programıdır.</b>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="projects-slider__item">
+				<div class="projects-masonry__item projects-masonry__item--primary projects-masonry__item--height-2" style="margin-right: 10px;">
+					<div class="projects-masonry__img"><img class="img--bg" src="img/projeler/takimlar_proje.jpg" alt="img" />
+						<div class="projects-masonry__inner"><span class="projects-masonry__badge" style="background: #ff884c;">TEKNOLOJİNİN MİLLİ TAKIMLARI DESTEK PROGRAMI</span>
+							<br>
+							<b> Teknoloji alanında uzmanlaşmayı hedefleyen ve proje geliştiren takımlara projelerini hayata geçirmeleri ve ulusal/uluslararası yarışmalara katılabilmelerine yardımcı olmayı amaçlayan destek programıdır.</b>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- section end-->
+
+<!-- promo pannel start-->
+       <div class="promo-pannel"><a class="anchor promo-pannel__anchor" href="#about"> <span>Aşağı Kaydır</span></a>
+            <div class="promo-pannel__video"><img class="img--bg" src="img/logotr2.png" alt="image"/><a class="video-trigger" href="https://www.youtube.com/watch?v=suv1CcLKoE8"><span>Videomuzu İzleyin</span><i class="fa fa-play" aria-hidden="true"></i></a></div>
+        <!--      <div class="promo-pannel__phones">
+                <p class="promo-pannel__title">Telefon</p><a class="promo-pannel__link" href="tel:+180012345678">+90 212 501 94 34</a><a class="promo-pannel__link" href="tel:+18009756511"></a>
+            </div>
+          <div class="promo-pannel__email">
+                <p class="promo-pannel__title">Email</p><a class="promo-pannel__link" href="mailto:support@helpo.org">iletisim@t3vakfi.org</a>
+            </div> -->
+        </div>
+        <!-- promo pannel end-->
+
+
+	<!-- causes start-->
+	<section class="section causes" >
+		<!--<img class="causes__bg" src="img/causes_img.png" alt="img" />-->
+		<div class="container">
+
+			<div class="row align-items-end margin-bottom">
+				<div class="col-sm-6">
+					<h2 class="heading__title"><span>T3 VAKFI</span> <span>Haberler</span></h2>
+				</div>
+				<div class="col-sm-6 d-flex justify-content-sm-end">
+					<!-- slider nav start-->
+					<div class="slider__nav causes-slider__nav">
+						<div class="slider__arrows">
+							<div class="slider__prev"><i class="fa fa-chevron-left" aria-hidden="true"></i>
+							</div>
+							<div class="slider__next"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<!-- slider nav end-->
+				</div>
+			</div>
+		</div>
+	<div class="causes-holder offset-margin">
+			<div class="causes-holder__wrapper">
+				<div class="causes-slider offset-margin">
+
+											<div class="causes-slider__item">
+							<div class="causes-item causes-item--primary">
+								<div class="causes-item__body">
+									<div class="causes-item__top" style="height: 50px;">
+										<h6 class="causes-item__title"> <a href="cause-details.html">BİLİM TÜRKİYE EĞİTMEN GELİŞTİRME PROGRAMI KAYITLARI BAŞLADI!</a></h6>
+										<style>
+											p {
+												display: -webkit-box;
+												-webkit-line-clamp: 3;
+												-webkit-box-orient: vertical;
+												overflow: hidden;
+											}
+										</style>
+
+									</div>
+									<div class="causes-item__img">
+										<div class="causes-item__badge" style="background-color: #2EC774">BİLİM ÜSKÜDAR</div><img class="img--bg" src="../upload/t3_haber2.jpg" alt="img" />
+									</div>
+									<hr>
+									<p><strong>18-02-2021</strong></p>
+									<p>ODTÜ Öğretim Üyesi Prof. Dr. Soner Yıldırım, 27 Şubat Salı 19:00'da "Öğrenmenin Zihnimizdeki Serüveni" konulu çevrim içi eğitimi ile programımızın konuğu olacak.</p>
+									<a class="button causes-item__button button--primary" href="haber-detay.php?id=86">+ Devamını Oku</a>
+								</div>
+							</div>
+						</div>
+											<div class="causes-slider__item">
+							<div class="causes-item causes-item--primary">
+								<div class="causes-item__body">
+									<div class="causes-item__top" style="height: 50px;">
+										<h6 class="causes-item__title"> <a href="cause-details.html">DENEYAP TEKNOLOJİ ATÖLYELERİ EĞİTMENLERİNİ ARIYOR!</a></h6>
+										<style>
+											p {
+												display: -webkit-box;
+												-webkit-line-clamp: 3;
+												-webkit-box-orient: vertical;
+												overflow: hidden;
+											}
+										</style>
+
+									</div>
+									<div class="causes-item__img">
+										<div class="causes-item__badge" style="background-color: #49C2DF">TEKNOFEST</div><img class="img--bg" src="../upload/202102161452244614.jpg" alt="img" />
+									</div>
+									<hr>
+									<p><strong>16-02-2021</strong></p>
+									<p>Milli Teknoloji Hamlesi yolunda yarının teknolojisini üretecek gençleri yetiştirme hedefimizde bizimle birlikte olmak isteyen tüm eğitmenlerimizin başvurularını bekliyoruz.  </p>
+									<a class="button causes-item__button button--primary" href="haber-detay.php?id=85">+ Devamını Oku</a>
+								</div>
+							</div>
+						</div>
+											<div class="causes-slider__item">
+							<div class="causes-item causes-item--primary">
+								<div class="causes-item__body">
+									<div class="causes-item__top" style="height: 50px;">
+										<h6 class="causes-item__title"> <a href="cause-details.html">VAKIF BÜLTENİMİZİN İKİNCİ SAYISI YAYINLANDI</a></h6>
+										<style>
+											p {
+												display: -webkit-box;
+												-webkit-line-clamp: 3;
+												-webkit-box-orient: vertical;
+												overflow: hidden;
+											}
+										</style>
+
+									</div>
+									<div class="causes-item__img">
+										<div class="causes-item__badge" style="background-color: "></div><img class="img--bg" src="../upload/20210251808353518.jpg" alt="img" />
+									</div>
+									<hr>
+									<p><strong>05-02-2021</strong></p>
+									<p>T3 Vakfı olarak Temmuz-Aralık 2020 tarihleri arasında gerçekleştirdiğimiz faaliyetleri Vakıf Bültenimizde derledik. </p>
+									<a class="button causes-item__button button--primary" href="haber-detay.php?id=83">+ Devamını Oku</a>
+								</div>
+							</div>
+						</div>
+											<div class="causes-slider__item">
+							<div class="causes-item causes-item--primary">
+								<div class="causes-item__body">
+									<div class="causes-item__top" style="height: 50px;">
+										<h6 class="causes-item__title"> <a href="cause-details.html">GİRİŞİMCİ YETİŞTİRME PROGRAMI BAŞVURULARI BAŞLADI!</a></h6>
+										<style>
+											p {
+												display: -webkit-box;
+												-webkit-line-clamp: 3;
+												-webkit-box-orient: vertical;
+												overflow: hidden;
+											}
+										</style>
+
+									</div>
+									<div class="causes-item__img">
+										<div class="causes-item__badge" style="background-color: "></div><img class="img--bg" src="../upload/20210221748253217.jpg" alt="img" />
+									</div>
+									<hr>
+									<p><strong>02-02-2021</strong></p>
+									<p>T3 Girişim Merkezi, girişimciliğe ilgisi olan lise, ön lisans ve lisans öğrencileri için Girişimci Yetiştirme Programı kapsamında temel girişimcilik eğitimleri, kitap tahlilleri, vaka analizleri ve girişim buluşmalarının yer aldığı 10 aylık bir eğitim programı sunuyor. </p>
+									<a class="button causes-item__button button--primary" href="haber-detay.php?id=82">+ Devamını Oku</a>
+								</div>
+							</div>
+						</div>
+											<div class="causes-slider__item">
+							<div class="causes-item causes-item--primary">
+								<div class="causes-item__body">
+									<div class="causes-item__top" style="height: 50px;">
+										<h6 class="causes-item__title"> <a href="cause-details.html">ŞUBAT AYI ÇEVRİM İÇİ ATÖLYE PROGRAMI YAYINLANDI!</a></h6>
+										<style>
+											p {
+												display: -webkit-box;
+												-webkit-line-clamp: 3;
+												-webkit-box-orient: vertical;
+												overflow: hidden;
+											}
+										</style>
+
+									</div>
+									<div class="causes-item__img">
+										<div class="causes-item__badge" style="background-color: "></div><img class="img--bg" src="../upload/202101301705062917.jpg" alt="img" />
+									</div>
+									<hr>
+									<p><strong>30-01-2021</strong></p>
+									<p>6-14 yaş grubundaki çocuklar için Matematik, Teknoloji, Doğa Bilimleri, Tasarım ve Astronomi, Havacılık&Uzay olmak üzere 5 farklı temadaki çevrim içi atölye eğitimlerimiz devam ediyor.</p>
+									<a class="button causes-item__button button--primary" href="haber-detay.php?id=80">+ Devamını Oku</a>
+								</div>
+							</div>
+						</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- causes end-->
+
+
+
+
+
+	<!-- donors inner start-->
+
+	<div class="container" style="margin-top: 20px; margin-bottom: 150px;">
+		<div class="row ">
+			<div class="col-12">
+				<div class="heading heading--primary heading--center">
+					<h2 class="heading__title"><span>T3 Vakfı</span> <span>Web Siteleri</span></h2>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<section class="customer-logos slider">
+				<div class="slide"><img style="width: 100px;" src="img/genel/teknofest_logo_gray.png"></div>
+				<div class="slide"><img style="width: 100px;" src="img/genel/deneyap_turkiye_logo_gray.png"></div>
+				<div class="slide"><img style="width: 100px;" src="img/genel/deneyap_logo_gray.png"></div>
+				<div class="slide"><img style="width: 100px;" src="img/genel/t3gm_logo_gray.png"></div>
+				<div class="slide"><img style="width: 100px;" src="img/genel/bilim_turkiye_logo.png"></div>
+				<div class="slide"><img style="width: 100px;" src="img/genel/bilim_uskudar_logo.png"></div>
+			</section>
+		</div>
+
+
+		<!--<div class="col-12">
+		
+			<div class="slider-holder">
+				<div class="donors-slider donors-slider--style-2 offset-margin">
+					<div class="donors-slider__item resim" data-ilk="img/genel/teknofest_logo.png" data-son="img/genel/teknofest_logo_gray.png">
+						<div class="donors-slider__img"><img src="img/genel/teknofest_logo_gray.png" alt="donor" /></div>
+					</div>
+					<div class="donors-slider__item resim" data-ilk="img/genel/deneyap_turkiye_logo.png" data-son="img/genel/deneyap_turkiye_logo_gray.png">
+						<div class="donors-slider__img"><img src="img/genel/deneyap_turkiye_logo_gray.png" alt="donor" /></div>
+					</div>
+					<div class="donors-slider__item resim" data-ilk="img/genel/deneyap_logo.png" data-son="img/genel/deneyap_logo_gray.png">
+						<div class="donors-slider__img"><img src="img/genel/deneyap_logo_gray.png" alt="donor" /></div>
+					</div>
+					<div class="donors-slider__item resim" data-ilk="img/genel/t3gm_logo.png" data-son="img/genel/t3gm_logo_gray.png">
+						<div class="donors-slider__img"><img src="img/genel/t3gm_logo_gray.png" alt="donor" /></div>
+					</div>
+					<div class="donors-slider__item resim" data-ilk="img/genel/bilim_turkiye_logo.png" data-son="img/genel/bilim_turkiye_logo_gray.png">
+						<div class="donors-slider__img"><img src="img/genel/bilim_turkiye_logo_gray.png" alt="donor" /></div>
+					</div>
+					<div class="donors-slider__item resim" data-ilk="img/genel/bilim_uskudar_logo.png" data-son="img/genel/bilim_uskudar_logo.png">
+						<div class="donors-slider__img"><img src="img/genel/bilim_uskudar_logo.png" alt="donor" /></div>
+					</div>
+
+
+				</div>
+			</div>
+		
+		</div>-->
+	</div>
+
+	<!-- donors inner end-->
+
+
+
+
+</main>
+	<!-- footer start-->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-lg-3">
+					<div class="footer-logo"><a class="footer-logo__link" href="index.html"><img class="footer-logo__img" src="img/genel/logo.png" alt="logo" /></a></div>
+					<!-- footer socials start-->
+					<ul class="footer-socials">
+						<li class="footer-socials__item"><a class="footer-socials__link" href="https://www.facebook.com/T3vakfi" target="_BLANK"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li class="footer-socials__item"><a class="footer-socials__link" href="https://twitter.com/t3vakfi" target="_BLANK"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li class="footer-socials__item"><a class="footer-socials__link" href="https://www.linkedin.com/company/turkiye-teknoloji-takimi-vakfi/" target="_BLANK"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li class="footer-socials__item"><a class="footer-socials__link" href="https://www.instagram.com/t3vakfi/?hl=tr" target="_BLANK"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						
+						 <li class="footer-socials__item"><a class="footer-socials__link" href="https://turkiyeteknolojitakimi.org/telegram-kanallarimiz.html"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+						  <li class="footer-socials__item"><a class="footer-socials__link" href="https://www.youtube.com/channel/UCvU7axhvcQsvMVfxN5ovQlQ"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+					</ul>
+
+
+					<!-- footer socials end-->
+				</div>
+				<div class="col-sm-12 col-lg-6">
+
+					<h4 class="footer__title">ADRES</h4>
+					<div class="footer-contacts">
+						<p class="footer-contacts__address">Orta mahalle Topkapı Maltepe Caddesi Canayakın Sitesi A blok No 6 34040 Bayrampaşa / İstanbul</p>
+						<p class="footer-contacts__phone">Telefon: <a href="tel:+902125019434">+90 212 501 94 34</a></p>
+						<p class="footer-contacts__mail">Email: <a href="mailto:iletisim@t3vakfi.org">iletisim@t3vakfi.org</a></p>
+					</div>
+
+					<div class="col-lg-12" style="padding-left:0px;">
+						<form class="subscribe-form" action="javascript:void(0);">
+							<input class="subscribe-form__input" type="email" name="email" placeholder="Abone Olmak İçin E-Posta Hesabınızı Bırakın" required="required" />
+							<input class="subscribe-form__submit" type="submit" value="Gönder" />
+						</form>
+					</div>
+
+
+				</div>
+
+		
+			</div>
+			<div class="row align-items-baseline">
+				<div class="col-md-6">
+					<p class="footer-copyright">© 2020 TÜRKİYE TEKNOLOJİ TAKIMI VAKFI</p>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+	<!-- footer end-->
+	</div>
+	<!-- libs-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="js/libs.min.js"></script>
+	<!-- scripts-->
+	<script src="js/common.min.js"></script>
+
+	</body>
+
+	</html>
+<script>
+	$(document).ready(function() {
+		$(".resim").hover(function() {
+			$("img", this).attr("src", $(this).data("ilk"));
+		}, function() {
+			$("img", this).attr("src", $(this).data("son"));
+		});
+
+
+		$("#hasan").click(function() {
+			console.log("hasan");
+		});
+	});
+
+
+	$(document).ready(function() {
+		$('.customer-logos').slick({
+			slidesToShow: 6,
+			slidesToScroll: 1,
+			autoplay: true,
+			autoplaySpeed: 1000,
+			arrows: false,
+			dots: false,
+			pauseOnHover: false,
+			responsive: [{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 4
+				}
+			}, {
+				breakpoint: 520,
+				settings: {
+					slidesToShow: 3
+				}
+			}]
+		});
+	});
+</script>
